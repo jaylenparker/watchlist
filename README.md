@@ -1,16 +1,42 @@
-# React + Vite
+# Watchlist
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal movie and TV show tracker built with React. Keep a running list of everything you've watched, what you're watching, and what's up next — with ratings for you and your girlfriend side by side.
 
-Currently, two official plugins are available:
+**Live site:** https://jaylenparker.github.io/watchlist
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add movies and shows with title, genre, type, and watch status
+- Track two ratings per entry — yours and your girlfriend's
+- Filter by type (film or series), status, and genre
+- Sort by title, your rating, or her rating
+- Edit or delete any entry
+- Running stats — total entries, watched count, and average ratings
 
-## Expanding the Oxlint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- CSS (custom, no frameworks)
+- Deployed with GitHub Pages
+
+## Getting Started
+
+Clone the repo and run it locally:
+
+```bash
+git clone https://github.com/jaylenparker/watchlist.git
+cd watchlist
+npm install
+npm run dev
+```
+
+Then open `http://localhost:5173` in your browser.
+
+## Deploy
+
+```bash
+npm run deploy
+```
